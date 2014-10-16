@@ -1,0 +1,9 @@
+/*Make the grid narrower*/
+.zone-row.record-row>.row.form {
+  margin:0.5em 0 !important;
+  padding-bottom:0 !important;
+}
+
+.zone-row.record-row>.row {
+  padding:0 !important;
+}
