@@ -35,7 +35,7 @@ if($DnsEditor.length > 0) {
                     function filtChange() {
                         filterGrid(dnsFilter, ".record-row", ".value-pane.name");
                     }
-                    $(dnsFilter).keyup(filtChange).chaneg(filtChange);
+                    $(dnsFilter).keyup(filtChange).change(filtChange);
                 }
             }
             scrollToBottom();
